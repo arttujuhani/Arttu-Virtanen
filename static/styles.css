@@ -1,0 +1,371 @@
+html {
+  scrollbar-face-color: #646464;
+  scrollbar-base-color: #646464;
+  scrollbar-3dlight-color: #646464;
+  scrollbar-highlight-color: #646464;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #646464;
+  scrollbar-dark-shadow-color: #646464;
+}
+
+::-webkit-scrollbar { width: 8px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #646464;}
+::-webkit-scrollbar-track-piece { background-color: #000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #646464;}}
+::-webkit-resizer { background-color: #666;}
+
+body {
+    font-family: "Montserrat", serif;
+    text-align: center;
+}
+
+#title {
+    color: #fff;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('images/energy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat',serif;
+    font-weight: bold;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 30px;
+}
+
+.CV-picture {
+    width: 150px;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-size: 3.25rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #576F72;
+    text-shadow: 0 0 8px #000; /* horizontal-offset vertical-offset 'blur' colour */
+    -moz-text-shadow: 0 0 8px #000;
+    -webkit-text-shadow: 0 0 8px #000;
+}
+
+.small-heading {
+    color: #DDDDDD;
+}
+
+
+.section-heading {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+    position: sticky;
+}
+
+
+
+.nav-item {
+    padding: 0 12px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', serif;
+    font-weight: 300;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+
+#about_me h1 {
+    padding-bottom: 7%;
+}
+
+.about-me-text {
+    padding: 0% 10%;
+}
+
+#about_me {
+    padding: 7% 15%;
+    background-color: #DDDDDD;
+    color: #222831;
+    position: relative;
+}
+
+.about_me-title {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.personal-image {
+    width: 15%;
+    position: absolute;
+    right: 12%;
+    top: 7%;
+}
+
+
+#education {
+    color: #DDDDDD;
+    padding: 7% 15%;
+    background: url(images/Education-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #30475E;
+}
+
+.education-list {
+    padding: 15px;
+}
+
+
+#skills {
+    background-color: #222831;
+    color: #DDDDDD;
+    height: 600px;
+}
+
+.skills-title {
+    padding: 5% 0% 0% 0%;
+}
+
+.skills-heading {
+    font-size: 3rem;
+    padding-bottom: 40px;
+}
+
+
+
+.carousel-item {
+    padding: 4% 15%;
+}
+
+.carousel-image-big {
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.carousel-heading {
+    padding-bottom: 30px;
+}
+
+.carousel-inner {
+    height: 550px;
+}
+
+@media (max-width:1028px) {
+
+#title {
+    text-align: center;
+}
+.big-heading {
+    font-size: 0.5rem;
+}
+.small-heading {
+    text-width: 0.5rem;
+}
+}
+
+
+.carousel-shadow-box {
+    box-shadow: 0 5px 15px rgba(0,0,0.5);
+    border-radius: 25px;
+    margin: 0 10px;
+}
+
+.carousel-shadow-box ul{
+    list-style: none;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    float: right;
+}
+
+.app-image-big {
+    width: 60px;
+    padding-bottom: 80px;
+}
+
+.app-image {
+    height: 100%;
+    width: 30px;
+}
+
+.app-image-text {
+    max-width: 30%;
+}
+
+.app-title-big {
+    position: relative;
+    left: 25px;
+    font-size: 3rem;
+}
+
+.skill-info {
+    text-align: left;
+}
+
+.app-info-main {
+
+}
+
+.logos-image {
+    position: relative;
+    left: -20%;
+    max-width: 60%;
+    padding-bottom: 20px;
+}
+
+.certificate-button {
+    align: left;
+}
+
+#footer {
+    background-color: #DDDDDD;
+    padding-top: 3%;
+}
+
+.footer-img {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.footer-link {
+    color: #30475E;
+}
+
+.footer-link:hover {
+    color: #F05454;
+    position: relative;
+    top: -5px;
+    bottom: 10px;
+}
+
+.copyright-text {
+    margin: 0%;
+    padding-bottom: 2%;
+}
+
+#testing {
+    background-color: blue;
+}
+
+#phone {
+    background-image: url('images/phone.jpg');
+
+     /* Full height */
+    height: 100vh;
+
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.phone-number {
+    color: #fff;
+    font-size: 5rem;
+    padding-top: 5%;
+    letter-spacing: 3px;
+}
+
+#thankyou {
+    background: url('images/thankyou.jpg');
+
+     height: 100vh;
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+     padding-top: 300px;
+}
+
+#thankyou h1 {
+    font-size: 4rem;
+    color: #DDDDDD;
+}
+
+#thankyou h2 {
+    color: #DDDDDD;
+}
+
+#contactme { background-color: #222831; }
+#contactme form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #F05454;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #F05454; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#F05454;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#256D85; }
+
