@@ -41,10 +41,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 30px;
 }
 
-.CV-picture {
-    width: 150px;
-}
-
 p {
     color: #8f8f8f;
 }
@@ -125,9 +121,6 @@ p {
 
 .personal-image {
     width: 15%;
-    position: absolute;
-    right: 12%;
-    top: 7%;
 }
 
 
@@ -151,6 +144,10 @@ p {
     background-color: #222831;
     color: #DDDDDD;
     height: 600px;
+}
+
+#skills ul {
+    padding-left: 15px;
 }
 
 .skills-title {
@@ -181,30 +178,96 @@ p {
     height: 550px;
 }
 
-@media (max-width:1028px) {
+.carousel-control-prev {
+    width: 30px;
+}
 
-#title {
-    text-align: center;
+.carousel-control-next {
+    width: 30px;
 }
-.big-heading {
-    font-size: 0.5rem;
+
+
+
+
+@media (max-width:990px) {
+
+    #title {
+        text-align: center;
+    }
+
+    #skills {
+        height:800px;
+    }
+    .carousel-inner{
+        height:750px;
+    }
+
+    .certificate-button {
+        position: absolute;
+        right: 80px;
+        top: 200px;
+    }
+
+    .logos-image {
+        position: relative;
+        right: 150%;
+        top: 0%;
+    }
 }
-.small-heading {
-    text-width: 0.5rem;
-}
+
+@media (max-width:768px) {
+    #skills {
+        height:1100px;
+    }
+    .carousel-inner{
+        height:1050px;
+    }
+
+    .carousel-shadow-box {
+        width: 250px;
+    }
+
+    .carousel-item .row {
+        justify-content: center;
+    }
+
+    .certificate-button {
+        position: relative;
+        top:0%;
+        right:0%;
+        margin-bottom: 30px;
+    }
+    .logos-image {
+        position: relative;
+        left: 0%;
+        top: 0%;
+    }
+
+    .second-carousel {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .second-carousel p {
+        text-align: center;
+    }
+
+    .analysis-image {
+        width: 500px;
+    }
+
 }
 
 
 .carousel-shadow-box {
     box-shadow: 0 5px 15px rgba(0,0,0.5);
     border-radius: 25px;
-    margin: 0 10px;
+    margin: 10px 10px;
 }
 
 .carousel-shadow-box ul{
     list-style: none;
     text-align: left;
-    margin-right: 20px;
 }
 
 .left {
@@ -217,7 +280,12 @@ p {
 
 .app-image-big {
     width: 60px;
-    padding-bottom: 80px;
+    height: 100%;
+}
+
+.analysis-image {
+    width: 80px;
+    height: 100%;
 }
 
 .app-image {
@@ -233,6 +301,7 @@ p {
     position: relative;
     left: 25px;
     font-size: 3rem;
+    padding-bottom: 80px;
 }
 
 .skill-info {
@@ -245,8 +314,8 @@ p {
 
 .logos-image {
     position: relative;
-    left: -20%;
-    max-width: 60%;
+    right: 60px;
+    max-width: 300px;
     padding-bottom: 20px;
 }
 
