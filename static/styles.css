@@ -49,7 +49,7 @@ p {
     font-size: 3.25rem;
     line-height: 1.5;
     font-weight: 900;
-    color: #576F72;
+    color: #00909E;
     text-shadow: 0 0 8px #000; /* horizontal-offset vertical-offset 'blur' colour */
     -moz-text-shadow: 0 0 8px #000;
     -webkit-text-shadow: 0 0 8px #000;
@@ -109,14 +109,15 @@ p {
 
 #about_me {
     padding: 7% 15%;
-    background-color: #DDDDDD;
-    color: #222831;
+    background-color: #DAE1E7;
+    color: #345B63;
     position: relative;
 }
 
 .about_me-title {
     font-weight: 600;
     font-size: 3rem;
+    color: #152D35;
 }
 
 .personal-image {
@@ -159,8 +160,6 @@ p {
     padding-bottom: 40px;
 }
 
-
-
 .carousel-item {
     padding: 4% 15%;
 }
@@ -174,16 +173,20 @@ p {
     padding-bottom: 30px;
 }
 
+.carousel-heading-padding {
+    padding-left: 14px;
+}
+
 .carousel-inner {
-    height: 550px;
+    height: 580px;
 }
 
 .carousel-control-prev {
-    width: 30px;
+    width: 50px;
 }
 
 .carousel-control-next {
-    width: 30px;
+    width: 50px;
 }
 
 
@@ -197,7 +200,7 @@ p {
         height:850px;
     }
     .carousel-inner{
-        height:800px;
+        height:830px;
     }
 
     .certificate-button {
@@ -213,9 +216,8 @@ p {
     }
 
     .code-image {
-        position: relative;
-        right: 150%;
-        top: 0%;
+        margin-right: 350px;
+        margin-bottom: 30px;
     }
 
     .third-carousel .app-image-text {
@@ -233,7 +235,7 @@ p {
         height:1150px;
     }
     .carousel-inner{
-        height:1100px;
+        height:1130px;
     }
 
     .carousel-shadow-box {
@@ -257,14 +259,12 @@ p {
     }
 
     .code-image {
-        position: relative;
-        left: 0%;
-        top: 0%;
+        margin-right: 0px;
     }
 
     .second-carousel {
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 80px;
+        padding-right: 80px;
     }
 
     .second-carousel p {
@@ -274,6 +274,7 @@ p {
     .carousel-heading-padding {
         padding-bottom: 30px;
         padding-top: 30px;
+        padding-left: 0px;
     }
 
     .third-carousel p {
@@ -286,6 +287,10 @@ p {
 
     .fourth-carousel p {
         text-align: center;
+    }
+
+    .app-image-text {
+        padding-left: 0 !important;
     }
 
 }
@@ -327,6 +332,8 @@ p {
 
 .app-image-text {
     max-width: 30%;
+    padding-left: 14px;
+    padding-bottom: 5px;
 }
 
 .app-title-big {
@@ -353,8 +360,6 @@ p {
 
 .code-image {
     max-width: 370px;
-    position: relative;
-    right: 45px;
 }
 
 .certificate-button {
@@ -362,7 +367,7 @@ p {
 }
 
 #footer {
-    background-color: #DDDDDD;
+    background-color: #DAE1E7;
     padding-top: 3%;
 }
 
