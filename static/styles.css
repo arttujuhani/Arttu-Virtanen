@@ -120,7 +120,7 @@ p {
 }
 
 .personal-image {
-    width: 15%;
+    width: 150px;
 }
 
 
@@ -187,8 +187,6 @@ p {
 }
 
 
-
-
 @media (max-width:990px) {
 
     #title {
@@ -196,10 +194,10 @@ p {
     }
 
     #skills {
-        height:800px;
+        height:850px;
     }
     .carousel-inner{
-        height:750px;
+        height:800px;
     }
 
     .certificate-button {
@@ -213,14 +211,23 @@ p {
         right: 150%;
         top: 0%;
     }
+
+    .third-carousel .app-image-text {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .carousel-heading-padding {
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width:768px) {
     #skills {
-        height:1100px;
+        height:1150px;
     }
     .carousel-inner{
-        height:1050px;
+        height:1100px;
     }
 
     .carousel-shadow-box {
@@ -252,8 +259,21 @@ p {
         text-align: center;
     }
 
+    .carousel-heading-padding {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .third-carousel p {
+        text-align: center;
+    }
+
     .analysis-image {
         width: 500px;
+    }
+
+    .fourth-carousel p {
+        text-align: center;
     }
 
 }
