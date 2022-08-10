@@ -7,6 +7,7 @@ html {
   scrollbar-arrow-color: #000;
   scrollbar-shadow-color: #646464;
   scrollbar-dark-shadow-color: #646464;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar { width: 8px; height: 3px;}
@@ -28,6 +29,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 660px;
+    position: relative;
 }
 
 
@@ -45,14 +47,18 @@ p {
     color: #8f8f8f;
 }
 
+
 .big-heading {
-    font-size: 3.25rem;
-    line-height: 1.5;
+    font-size: 5rem;
     font-weight: 900;
-    color: #00909E;
-    text-shadow: 0 0 8px #000; /* horizontal-offset vertical-offset 'blur' colour */
-    -moz-text-shadow: 0 0 8px #000;
-    -webkit-text-shadow: 0 0 8px #000;
+    background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('images/energy.jpg');
+	background-size: 230px auto;
+	background-attachment: unset;
+	background-position: 50% 0;
+    padding: 1.5% 0 0 0;
 }
 
 .small-heading {
@@ -69,6 +75,50 @@ p {
 .container-fluid {
   padding: 3% 15% 10%;
 }
+
+
+.custom-shape-divider-bottom-1660130580 {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1660130580 svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1660130580 .shape-fill {
+    fill: #DAE1E7;
+}
+
+
+.custom-shape-divider-top-1660128423 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1660128423 svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+.custom-shape-divider-top-1660128423 .shape-fill {
+    fill: #DAE1E7;
+}
+
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -88,7 +138,7 @@ p {
 }
 
 .download-button {
-    margin: 5% 3% 5% 0;
+    margin-top: 2%;
 }
 
 .title-image {
@@ -98,17 +148,12 @@ p {
     bottom: 0%;
 }
 
-
-#about_me h1 {
-    padding-bottom: 7%;
-}
-
 .about-me-text {
     padding: 0% 10%;
 }
 
 #about_me {
-    padding: 7% 15%;
+    padding: 1% 15%;
     background-color: #DAE1E7;
     color: #345B63;
     position: relative;
@@ -118,6 +163,7 @@ p {
     font-weight: 600;
     font-size: 3rem;
     color: #152D35;
+    padding-bottom: 5%;
 }
 
 .personal-image {
@@ -134,6 +180,7 @@ p {
     -o-background-size: cover;
     background-size: cover;
     background-color: #30475E;
+    position: relative;
 }
 
 .education-list {
@@ -142,7 +189,8 @@ p {
 
 
 #skills {
-    background-color: #222831;
+    background: rgb(41,40,55);
+    background: linear-gradient(5deg, rgb(30,30,37) 5%, #20212b 20%, #21222e 40%, #21222e 60%, #20212b 80%, rgb(30,30,37) 95%);
     color: #DDDDDD;
     height: 600px;
 }
@@ -156,8 +204,11 @@ p {
 }
 
 .skills-heading {
-    font-size: 3rem;
     padding-bottom: 40px;
+    color: #fff;
+	font-size: 3rem;
+	font-weight: 900;
+	text-shadow: 0 5px 15px rgba(0,0,0.5);
 }
 
 .carousel-item {
@@ -381,7 +432,7 @@ p {
 }
 
 .footer-link:hover {
-    color: #F05454;
+    color: #fff;
     position: relative;
     top: -5px;
     bottom: 10px;
@@ -390,10 +441,6 @@ p {
 .copyright-text {
     margin: 0%;
     padding-bottom: 2%;
-}
-
-#testing {
-    background-color: blue;
 }
 
 #phone {
@@ -480,4 +527,3 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#256D85; }
-
