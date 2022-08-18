@@ -232,6 +232,7 @@ p {
 
     #title {
         text-align: center;
+        height: 710px;
     }
 
     #skills {
@@ -488,7 +489,7 @@ p {
 }
 
 #thankyou {
-    background: url('images/thankyou.jpg');
+    background: url('images/energy.jpg');
 
      height: 100vh;
      /* Center and scale the image nicely */
@@ -496,7 +497,7 @@ p {
      background-repeat: no-repeat;
      background-size: cover;
      text-align: center;
-     padding-top: 300px;
+     padding-top: 310px;
 }
 
 #thankyou h1 {
