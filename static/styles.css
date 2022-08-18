@@ -54,10 +54,10 @@ p {
     background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
-	background-image: url('images/energy.jpg');
-	background-size: 230px auto;
+	background-image: url('images/font.jpg');
+	background-size: 770px 60px;
 	background-attachment: unset;
-	background-position: 50% 0;
+	background-position: 60% -50%;
     padding: 1.5% 0 0 0;
 }
 
@@ -93,32 +93,6 @@ p {
     width: 100%;
     height: 50px;
 }
-
-.custom-shape-divider-bottom-1660130580 .shape-fill {
-    fill: #DAE1E7;
-}
-
-
-.custom-shape-divider-top-1660128423 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1660128423 svg {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 50px;
-}
-
-.custom-shape-divider-top-1660128423 .shape-fill {
-    fill: #DAE1E7;
-}
-
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -216,12 +190,13 @@ p {
 }
 
 .carousel-image-big {
-    width: 100px;
-    padding-bottom: 20px;
+    width: 170px;
+    padding-bottom: 10px;
 }
 
+
 .carousel-heading {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .carousel-heading-padding {
@@ -240,6 +215,18 @@ p {
     width: 50px;
 }
 
+.second-carousel p {
+    padding-bottom: 20px;
+}
+
+.third-carousel p {
+    padding-bottom: 20px;
+}
+
+.fourth-carousel p {
+    padding-bottom: 20px;
+}
+
 
 @media (max-width:990px) {
 
@@ -248,10 +235,10 @@ p {
     }
 
     #skills {
-        height:850px;
+        height:950px;
     }
     .carousel-inner{
-        height:830px;
+        height:930px;
     }
 
     .certificate-button {
@@ -283,10 +270,10 @@ p {
 
 @media (max-width:768px) {
     #skills {
-        height:1150px;
+        height:1300px;
     }
     .carousel-inner{
-        height:1130px;
+        height:1280px;
     }
 
     .carousel-shadow-box {
@@ -316,6 +303,19 @@ p {
     .second-carousel {
         padding-left: 80px;
         padding-right: 80px;
+        padding-top: 60px;
+    }
+
+    .third-carousel {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 60px;
+    }
+
+    .fourth-carousel {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 60px;
     }
 
     .second-carousel p {
@@ -344,8 +344,17 @@ p {
         padding-left: 0 !important;
     }
 
+    .app-image-big {
+        bottom: 0;
+    }
+
 }
 
+@media (max-width:637px) {
+    .app-title-analysis {
+        bottom: 30px;
+    }
+}
 
 .carousel-shadow-box {
     box-shadow: 0 5px 15px rgba(0,0,0.5);
@@ -367,8 +376,10 @@ p {
 }
 
 .app-image-big {
-    width: 60px;
+    width: 140px;
     height: 100%;
+    position: relative;
+    bottom: 40px;
 }
 
 .analysis-image {
@@ -378,7 +389,16 @@ p {
 
 .app-image {
     height: 100%;
-    width: 30px;
+    width: 40px;
+    padding-right: 5px;
+}
+
+.app-image-website {
+    height: 100%;
+    width: 60px;
+    padding-right: 7px;
+    position: relative;
+    bottom: 7px;
 }
 
 .app-image-text {
@@ -387,11 +407,16 @@ p {
     padding-bottom: 5px;
 }
 
+.app-title-analysis {
+    position: relative;
+    left: 10px;
+    font-size: 3rem;
+}
+
 .app-title-big {
     position: relative;
-    left: 25px;
+    left: 10px;
     font-size: 3rem;
-    padding-bottom: 80px;
 }
 
 .skill-info {
@@ -432,7 +457,7 @@ p {
 }
 
 .footer-link:hover {
-    color: #fff;
+    color: #00909E;
     position: relative;
     top: -5px;
     bottom: 10px;
@@ -527,3 +552,7 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#256D85; }
+
+.blue {
+    background-color: #80B3F2;
+}
