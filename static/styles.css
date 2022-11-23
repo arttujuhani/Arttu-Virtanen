@@ -132,23 +132,24 @@ p {
 
 .about-me-text {
     padding: 0% 15%;
+    margin: 0;
+    color: #040c14;
 }
 
 #about_me {
-    padding: 4% 12% 12% 12%;
+    padding: 5% 12% 2% 12%;
     color: #345B63;
     position: relative;
     background-color: #DAE1E7;
 }
 
 .forest-divider {
-    position: absolute;
-    bottom: -70px;
-    left: 0;
-    z-index: 3;
-    width: 100%;
+    margin: 2% 0 6% 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
     height: auto;
-    object-fit: cover;
 }
 
 .about_me-title {
@@ -165,7 +166,7 @@ p {
 
 #education {
     color: #DDDDDD;
-    padding: 15% 12% 8% 12%;
+    padding: 10% 12% 5% 12%;
     background: url(images/Education-image.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -231,11 +232,11 @@ p {
 }
 
 .carousel-control-prev {
-    width: 50px;
+    width: 80px;
 }
 
 .carousel-control-next {
-    width: 50px;
+    width: 80px;
 }
 
 .second-carousel p {
